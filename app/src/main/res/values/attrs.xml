@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GCButton">
+        <attr name="backColors" format="color"/>
+        <attr name="backColorSelected" format="color"/>
+        <attr name="backGroundImage" format="reference"/>
+        <attr name="backGroundImageSeleted" format="reference"/>
+        <attr name="textColorSeleted" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="shape">
+            <enum name="RECTANGLE" value="0"/>
+            <enum name="OVAL" value="1"/>
+            <enum name="LINE" value="2"/>
+            <enum name="RING" value="3"/>
+        </attr>
+        <attr name="fillet" format="boolean"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="strokeColor" format="color"/>
+    </declare-styleable>
+</resources>
